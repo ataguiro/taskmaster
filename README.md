@@ -1,2 +1,2 @@
 # taskmaster
-Taskmaster, developped in Python, similar to program supervisor with server support and multi client
+Taskmaster, developped in Python3, similar to program supervisor with server support and multi client
