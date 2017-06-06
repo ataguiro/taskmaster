@@ -1,0 +1,7 @@
+[program:bash]
+command=/bin/bash
+startsecs=100
+
+[server]
+port=4246
+password=123

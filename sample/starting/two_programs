@@ -1,0 +1,35 @@
+[program:ls]
+command=/bin/ls -l
+numprocs=1
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out2_1
+stderr_logfile=/tmp/err2_1
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:pwd]
+command=/bin/pwd
+numprocs=1
+autostart=false
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out2_2
+stderr_logfile=/tmp/err2_2
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[server]
+port=4242
+password=123

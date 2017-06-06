@@ -1,0 +1,9 @@
+[program:bash]
+command=/Users/ariard/Projects/taskmaster/bin/signal
+stopsignal=QUIT
+stdout_logfile=/tmp/signals
+
+[server]
+port=4242
+password=123
+

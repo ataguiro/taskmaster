@@ -1,0 +1,8 @@
+[program:env]
+command=/usr/bin/env
+stdout_logfile=/tmp/out_env
+environnement=HELLO="bonjour", WORLD="salut", COUCOU="yo"
+
+[server]
+port=4242
+password=123

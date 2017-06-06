@@ -1,0 +1,8 @@
+[program:ls]
+command=/bin/ls -l
+exitcodes=fewewffewewf
+autorestart=unexpected
+
+[server]
+port=4246
+password=123

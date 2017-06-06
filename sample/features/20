@@ -1,0 +1,9 @@
+[program:immune]
+command=/Users/ariard/Projects/taskmaster/bin/immune
+stopwaitsecs=5
+stopsignal=TERM
+stdout=/tmp/out_immune
+
+[server]
+port=4242
+password=123

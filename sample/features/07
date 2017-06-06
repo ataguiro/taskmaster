@@ -1,0 +1,7 @@
+[program:ls]
+command=/bin/ls -l
+autorestart=true
+
+[server]
+port=4246
+password=123

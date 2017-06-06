@@ -1,0 +1,7 @@
+[program:ls]
+command=/bin/ls -l
+numprocs=100
+
+[server]
+port=4242
+password=123

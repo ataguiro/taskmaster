@@ -1,0 +1,164 @@
+[program:echo1]
+command=/bin/echo hello
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_1 
+stderr_logfile=/tmp/err10_1
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:echo2]
+command=/bin/echo salut
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_2
+stderr_logfile=/tmp/err10_2
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:echo3]
+command=/bin/echo hello
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_3
+stderr_logfile=/tmp/err10_3
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:echo4]
+command=/bin/echo hey
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_4
+stderr_logfile=/tmp/err10_4
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:echo5]
+command=/bin/echo bonjour
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_5
+stderr_logfile=/tmp/err10_5
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:echo6]
+command=/bin/echo coucou
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_6
+stderr_logfile=/tmp/err10_6
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:echo7]
+command=/bin/echo gutentag
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_7
+stderr_logfile=/tmp/err10_7
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:echo8]
+command=/bin/echo hola
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_8
+stderr_logfile=/tmp/err10_8
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:echo9]
+command=/bin/echo arrive_derci
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_9
+stderr_logfile=/tmp/err10_9
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[program:echo10]
+command=/bin/echo davai
+numprocs=2
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out10_10
+stderr_logfile=/tmp/err10_10
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+
+[server]
+port=4242
+password=123

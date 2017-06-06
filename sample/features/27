@@ -1,0 +1,8 @@
+[program:ls]
+command=/bin/ls
+startsecs=3
+startretries=5
+
+[server]
+port=4242
+password=123

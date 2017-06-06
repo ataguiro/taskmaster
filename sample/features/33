@@ -1,0 +1,7 @@
+[program:pwd]
+command=/usr/bin/touch file_from_taskmaster
+directory=/Users/ariard/
+
+[server]
+port=4242
+password=123

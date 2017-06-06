@@ -1,0 +1,19 @@
+[program:pwd]
+command=/bin/pwd
+numprocs=5000
+autostart=true
+autorestart=false
+exitcodes=1
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=10
+stdout_logfile=/tmp/out
+stderr_logfile=/tmp/err
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[server]
+port=4242
+password=123

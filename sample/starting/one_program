@@ -1,0 +1,19 @@
+[program:ls]
+command=/bin/ls -l
+numprocs=1
+autostart=true
+autorestart=false
+exitcodes=0
+startsecs=0
+startretries=1
+stopsignal=TERM
+stopwaitsecs=5
+stdout_logfile=/tmp/out1
+stderr_logfile=/tmp/err1
+environnement=HELLO="bonjour", WORLD="salut"
+directory=/tmp
+umask=000
+
+[server]
+port=4242
+password=123

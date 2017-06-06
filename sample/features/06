@@ -1,0 +1,7 @@
+[program:ls]
+command=/bin/ls -l
+autostart=rwewfewewefwfe
+
+[server]
+port=4242
+password=123

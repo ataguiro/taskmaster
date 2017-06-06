@@ -1,0 +1,7 @@
+[program:pwd]
+command=/bin/pwd
+autostart=true
+
+[server]
+port=4242
+password=123

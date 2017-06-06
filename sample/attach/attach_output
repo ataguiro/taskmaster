@@ -1,0 +1,14 @@
+[program:lsdesfamilles]
+command=/bin/ls -lR /
+numprocs=1
+autostart=true
+autorestart=false
+startretries=0
+exitcodes=0
+stopsignal=TERM
+stopwaitsecs=2
+stdout_logfile=/tmp/out_lsdesfamiless
+
+[server]
+port=4242
+password=123

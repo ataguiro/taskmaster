@@ -1,0 +1,10 @@
+[program:ls]
+command=/bin/ls -l
+exitcodes=0
+autorestart=unexpected
+startsecs=0
+startretries=0
+
+[server]
+port=4242
+password=123

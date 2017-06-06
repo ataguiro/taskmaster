@@ -1,0 +1,16 @@
+[program:bufferoverflow]
+command=/Users/ariard/Projects/taskmaster/bin/crash3
+numprocs=20
+autostart=true
+autorestart=true
+exitcodes=0
+startsecs=0
+startretries=0
+stopsignal=TERM
+stopwaitsecs=5
+directory=/tmp
+umask=000
+
+[server]
+port=4242
+password=123

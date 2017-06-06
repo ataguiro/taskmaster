@@ -1,0 +1,7 @@
+[program:ls]
+command=/bin/ls -l
+stdout_logfile=/dev/null
+
+[server]
+port=4242
+password=123

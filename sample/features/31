@@ -1,0 +1,7 @@
+[program:ls]
+command=/bin/cat efwfwewef
+stderr_logfile=/tmp/error_cat
+
+[server]
+port=4242
+password=123
