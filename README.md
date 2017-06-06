@@ -4,7 +4,7 @@ By ataguiro, ariard
 
 Taskmaster school project : write a program similar to Supervisor.py with another mate
 
-First school project which language is free. We choose Python3 to learn and discover a script language.
+First school project which language is free. We chose Python3 to learn and discover a script language.
 
 Features (ongoing implementation)
 - Daemonized server to handle multi-clients
